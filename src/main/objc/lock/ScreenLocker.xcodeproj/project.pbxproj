@@ -1,0 +1,1084 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D113C9C1AE98CAC000DFEB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D113C9B1AE98CAC000DFEB2 /* main.m */; };
+		1D113CA11AE98CAC000DFEB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D113CA01AE98CAC000DFEB2 /* Images.xcassets */; };
+		1D113CB01AE98CAC000DFEB2 /* ScreenLockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D113CAF1AE98CAC000DFEB2 /* ScreenLockerTests.m */; };
+		1D113CC21AE98D8D000DFEB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D113CBB1AE98D8D000DFEB2 /* AppDelegate.m */; };
+		1D113CC31AE98D8D000DFEB2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D113CBE1AE98D8D000DFEB2 /* ViewController.m */; };
+		1D113CC41AE98D8D000DFEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D113CC11AE98D8D000DFEB2 /* Main.storyboard */; };
+		1D113CD41AE98E2E000DFEB2 /* ScreenLockerPlugin.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D113CC91AE98DDD000DFEB2 /* ScreenLockerPlugin.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1D113CDC1AE98E84000DFEB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D113CDB1AE98E84000DFEB2 /* main.m */; };
+		1D113CE21AE98EF6000DFEB2 /* ScreenLockerPluginInstaller in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1D113CD91AE98E84000DFEB2 /* ScreenLockerPluginInstaller */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		1D113CEF1AE98F40000DFEB2 /* ScreenLockerServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D113CEE1AE98F40000DFEB2 /* ScreenLockerServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D113CF51AE98F40000DFEB2 /* ScreenLockerServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D113CEA1AE98F40000DFEB2 /* ScreenLockerServices.framework */; };
+		1D113CFE1AE98F40000DFEB2 /* ScreenLockerServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D113CFD1AE98F40000DFEB2 /* ScreenLockerServicesTests.m */; };
+		1D113D011AE98F40000DFEB2 /* ScreenLockerServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D113CEA1AE98F40000DFEB2 /* ScreenLockerServices.framework */; };
+		1D113D031AE98F40000DFEB2 /* ScreenLockerServices.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1D113CEA1AE98F40000DFEB2 /* ScreenLockerServices.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1D113D101AE99F11000DFEB2 /* Installer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D113D0F1AE99F11000DFEB2 /* Installer.m */; };
+		AC6BBC299A47A58C4CADE824 /* libPods-ScreenLocker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 366A3B6A660811A570405710 /* libPods-ScreenLocker.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D113CAA1AE98CAC000DFEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D113C8B1AE98CAC000DFEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D113C921AE98CAC000DFEB2;
+			remoteInfo = ScreenLocker;
+		};
+		1D113CD01AE98E0F000DFEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D113C8B1AE98CAC000DFEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D113CC81AE98DDD000DFEB2;
+			remoteInfo = ScreenLockerPlugin;
+		};
+		1D113CE31AE98EFD000DFEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D113C8B1AE98CAC000DFEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D113CD81AE98E84000DFEB2;
+			remoteInfo = ScreenLockerPluginInstaller;
+		};
+		1D113CF61AE98F40000DFEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D113C8B1AE98CAC000DFEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D113CE91AE98F40000DFEB2;
+			remoteInfo = ScreenLockerServices;
+		};
+		1D113CF81AE98F40000DFEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D113C8B1AE98CAC000DFEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D113C921AE98CAC000DFEB2;
+			remoteInfo = ScreenLocker;
+		};
+		1D113CFF1AE98F40000DFEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D113C8B1AE98CAC000DFEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D113CE91AE98F40000DFEB2;
+			remoteInfo = ScreenLockerServices;
+		};
+		1D113D0A1AE98F88000DFEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D113C8B1AE98CAC000DFEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D113CE91AE98F40000DFEB2;
+			remoteInfo = ScreenLockerServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D113CD31AE98E22000DFEB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1D113CD41AE98E2E000DFEB2 /* ScreenLockerPlugin.bundle in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CD71AE98E84000DFEB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		1D113CE11AE98EE2000DFEB2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				1D113CE21AE98EF6000DFEB2 /* ScreenLockerPluginInstaller in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113D021AE98F40000DFEB2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1D113D031AE98F40000DFEB2 /* ScreenLockerServices.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D113C931AE98CAC000DFEB2 /* ScreenLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D113C971AE98CAC000DFEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D113C9B1AE98CAC000DFEB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D113CA01AE98CAC000DFEB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D113CA91AE98CAC000DFEB2 /* ScreenLockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D113CAE1AE98CAC000DFEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D113CAF1AE98CAC000DFEB2 /* ScreenLockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLockerTests.m; sourceTree = "<group>"; };
+		1D113CBA1AE98D8D000DFEB2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D113CBB1AE98D8D000DFEB2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D113CBD1AE98D8D000DFEB2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D113CBE1AE98D8D000DFEB2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D113CC11AE98D8D000DFEB2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1D113CC91AE98DDD000DFEB2 /* ScreenLockerPlugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockerPlugin.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D113CCC1AE98DDD000DFEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D113CD91AE98E84000DFEB2 /* ScreenLockerPluginInstaller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ScreenLockerPluginInstaller; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D113CDB1AE98E84000DFEB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D113CEA1AE98F40000DFEB2 /* ScreenLockerServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreenLockerServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D113CED1AE98F40000DFEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D113CEE1AE98F40000DFEB2 /* ScreenLockerServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenLockerServices.h; sourceTree = "<group>"; };
+		1D113CF41AE98F40000DFEB2 /* ScreenLockerServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockerServicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D113CFC1AE98F40000DFEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D113CFD1AE98F40000DFEB2 /* ScreenLockerServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLockerServicesTests.m; sourceTree = "<group>"; };
+		1D113D0E1AE99F11000DFEB2 /* Installer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Installer.h; sourceTree = "<group>"; };
+		1D113D0F1AE99F11000DFEB2 /* Installer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Installer.m; sourceTree = "<group>"; };
+		366A3B6A660811A570405710 /* libPods-ScreenLocker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScreenLocker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C05ACB5AF735BB3DEA4BAE1 /* Pods-ScreenLocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenLocker.release.xcconfig"; path = "../../../../Pods/Target Support Files/Pods-ScreenLocker/Pods-ScreenLocker.release.xcconfig"; sourceTree = "<group>"; };
+		70C422F6811AAA56D7DFD495 /* Pods-ScreenLocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenLocker.debug.xcconfig"; path = "../../../../Pods/Target Support Files/Pods-ScreenLocker/Pods-ScreenLocker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D113C901AE98CAC000DFEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D113D011AE98F40000DFEB2 /* ScreenLockerServices.framework in Frameworks */,
+				AC6BBC299A47A58C4CADE824 /* libPods-ScreenLocker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CA61AE98CAC000DFEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CC61AE98DDD000DFEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CD61AE98E84000DFEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CE61AE98F40000DFEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CF11AE98F40000DFEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D113CF51AE98F40000DFEB2 /* ScreenLockerServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D113C8A1AE98CAC000DFEB2 = {
+			isa = PBXGroup;
+			children = (
+				1D113C951AE98CAC000DFEB2 /* ScreenLocker */,
+				1D113CAC1AE98CAC000DFEB2 /* ScreenLockerTests */,
+				1D113CEB1AE98F40000DFEB2 /* ScreenLockerServices */,
+				1D113CCA1AE98DDD000DFEB2 /* ScreenLockerPlugin */,
+				1D113CDA1AE98E84000DFEB2 /* ScreenLockerPluginInstaller */,
+				1D113CFA1AE98F40000DFEB2 /* ScreenLockerServicesTests */,
+				1D113C941AE98CAC000DFEB2 /* Products */,
+				C797C9F7897181D1161A16DF /* Pods */,
+				6066E39AECBD66C2D6BA1817 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D113C941AE98CAC000DFEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D113C931AE98CAC000DFEB2 /* ScreenLocker.app */,
+				1D113CA91AE98CAC000DFEB2 /* ScreenLockerTests.xctest */,
+				1D113CC91AE98DDD000DFEB2 /* ScreenLockerPlugin.bundle */,
+				1D113CD91AE98E84000DFEB2 /* ScreenLockerPluginInstaller */,
+				1D113CEA1AE98F40000DFEB2 /* ScreenLockerServices.framework */,
+				1D113CF41AE98F40000DFEB2 /* ScreenLockerServicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D113C951AE98CAC000DFEB2 /* ScreenLocker */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CB91AE98D8D000DFEB2 /* application */,
+				1D113CBC1AE98D8D000DFEB2 /* controllers */,
+				1D113CBF1AE98D8D000DFEB2 /* engine */,
+				1D113CC01AE98D8D000DFEB2 /* views */,
+				1D113C961AE98CAC000DFEB2 /* Supporting Files */,
+			);
+			path = ScreenLocker;
+			sourceTree = "<group>";
+		};
+		1D113C961AE98CAC000DFEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CA01AE98CAC000DFEB2 /* Images.xcassets */,
+				1D113C971AE98CAC000DFEB2 /* Info.plist */,
+				1D113C9B1AE98CAC000DFEB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D113CAC1AE98CAC000DFEB2 /* ScreenLockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CAF1AE98CAC000DFEB2 /* ScreenLockerTests.m */,
+				1D113CAD1AE98CAC000DFEB2 /* Supporting Files */,
+			);
+			path = ScreenLockerTests;
+			sourceTree = "<group>";
+		};
+		1D113CAD1AE98CAC000DFEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CAE1AE98CAC000DFEB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D113CB91AE98D8D000DFEB2 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CBA1AE98D8D000DFEB2 /* AppDelegate.h */,
+				1D113CBB1AE98D8D000DFEB2 /* AppDelegate.m */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		1D113CBC1AE98D8D000DFEB2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CBD1AE98D8D000DFEB2 /* ViewController.h */,
+				1D113CBE1AE98D8D000DFEB2 /* ViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		1D113CBF1AE98D8D000DFEB2 /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				1D113D0E1AE99F11000DFEB2 /* Installer.h */,
+				1D113D0F1AE99F11000DFEB2 /* Installer.m */,
+			);
+			path = engine;
+			sourceTree = "<group>";
+		};
+		1D113CC01AE98D8D000DFEB2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CC11AE98D8D000DFEB2 /* Main.storyboard */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		1D113CCA1AE98DDD000DFEB2 /* ScreenLockerPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CCB1AE98DDD000DFEB2 /* Supporting Files */,
+			);
+			path = ScreenLockerPlugin;
+			sourceTree = "<group>";
+		};
+		1D113CCB1AE98DDD000DFEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CCC1AE98DDD000DFEB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D113CDA1AE98E84000DFEB2 /* ScreenLockerPluginInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CE01AE98E97000DFEB2 /* Supporting Files */,
+				1D113CDB1AE98E84000DFEB2 /* main.m */,
+			);
+			path = ScreenLockerPluginInstaller;
+			sourceTree = "<group>";
+		};
+		1D113CE01AE98E97000DFEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D113CEB1AE98F40000DFEB2 /* ScreenLockerServices */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CEE1AE98F40000DFEB2 /* ScreenLockerServices.h */,
+				1D113CEC1AE98F40000DFEB2 /* Supporting Files */,
+			);
+			path = ScreenLockerServices;
+			sourceTree = SOURCE_ROOT;
+		};
+		1D113CEC1AE98F40000DFEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CED1AE98F40000DFEB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D113CFA1AE98F40000DFEB2 /* ScreenLockerServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CFD1AE98F40000DFEB2 /* ScreenLockerServicesTests.m */,
+				1D113CFB1AE98F40000DFEB2 /* Supporting Files */,
+			);
+			path = ScreenLockerServicesTests;
+			sourceTree = "<group>";
+		};
+		1D113CFB1AE98F40000DFEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D113CFC1AE98F40000DFEB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6066E39AECBD66C2D6BA1817 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				366A3B6A660811A570405710 /* libPods-ScreenLocker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C797C9F7897181D1161A16DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70C422F6811AAA56D7DFD495 /* Pods-ScreenLocker.debug.xcconfig */,
+				6C05ACB5AF735BB3DEA4BAE1 /* Pods-ScreenLocker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D113CE71AE98F40000DFEB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D113CEF1AE98F40000DFEB2 /* ScreenLockerServices.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D113C921AE98CAC000DFEB2 /* ScreenLocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D113CB31AE98CAC000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLocker" */;
+			buildPhases = (
+				FDC7B37B2F8E5357A55B679C /* Check Pods Manifest.lock */,
+				1D113C8F1AE98CAC000DFEB2 /* Sources */,
+				1D113C901AE98CAC000DFEB2 /* Frameworks */,
+				1D113C911AE98CAC000DFEB2 /* Resources */,
+				1D113CD31AE98E22000DFEB2 /* CopyFiles */,
+				1D113CE11AE98EE2000DFEB2 /* CopyFiles */,
+				1D113D021AE98F40000DFEB2 /* Embed Frameworks */,
+				089B6CE04555FEDF3203176E /* Copy Pods Resources */,
+				1D113D0D1AE99204000DFEB2 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D113CE41AE98EFD000DFEB2 /* PBXTargetDependency */,
+				1D113CD11AE98E0F000DFEB2 /* PBXTargetDependency */,
+				1D113D001AE98F40000DFEB2 /* PBXTargetDependency */,
+			);
+			name = ScreenLocker;
+			productName = ScreenLocker;
+			productReference = 1D113C931AE98CAC000DFEB2 /* ScreenLocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D113CA81AE98CAC000DFEB2 /* ScreenLockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D113CB61AE98CAC000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerTests" */;
+			buildPhases = (
+				1D113CA51AE98CAC000DFEB2 /* Sources */,
+				1D113CA61AE98CAC000DFEB2 /* Frameworks */,
+				1D113CA71AE98CAC000DFEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D113CAB1AE98CAC000DFEB2 /* PBXTargetDependency */,
+			);
+			name = ScreenLockerTests;
+			productName = ScreenLockerTests;
+			productReference = 1D113CA91AE98CAC000DFEB2 /* ScreenLockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D113CC81AE98DDD000DFEB2 /* ScreenLockerPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D113CCD1AE98DDD000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerPlugin" */;
+			buildPhases = (
+				1D113CC51AE98DDD000DFEB2 /* Sources */,
+				1D113CC61AE98DDD000DFEB2 /* Frameworks */,
+				1D113CC71AE98DDD000DFEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D113D0B1AE98F88000DFEB2 /* PBXTargetDependency */,
+			);
+			name = ScreenLockerPlugin;
+			productName = ScreenLockerPlugin;
+			productReference = 1D113CC91AE98DDD000DFEB2 /* ScreenLockerPlugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1D113CD81AE98E84000DFEB2 /* ScreenLockerPluginInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D113CDD1AE98E84000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerPluginInstaller" */;
+			buildPhases = (
+				1D113CD51AE98E84000DFEB2 /* Sources */,
+				1D113CD61AE98E84000DFEB2 /* Frameworks */,
+				1D113CD71AE98E84000DFEB2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenLockerPluginInstaller;
+			productName = ScreenLockerPluginInstaller;
+			productReference = 1D113CD91AE98E84000DFEB2 /* ScreenLockerPluginInstaller */;
+			productType = "com.apple.product-type.tool";
+		};
+		1D113CE91AE98F40000DFEB2 /* ScreenLockerServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D113D041AE98F40000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerServices" */;
+			buildPhases = (
+				1D113CE51AE98F40000DFEB2 /* Sources */,
+				1D113CE61AE98F40000DFEB2 /* Frameworks */,
+				1D113CE71AE98F40000DFEB2 /* Headers */,
+				1D113CE81AE98F40000DFEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenLockerServices;
+			productName = ScreenLockerServices;
+			productReference = 1D113CEA1AE98F40000DFEB2 /* ScreenLockerServices.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D113CF31AE98F40000DFEB2 /* ScreenLockerServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D113D071AE98F40000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerServicesTests" */;
+			buildPhases = (
+				1D113CF01AE98F40000DFEB2 /* Sources */,
+				1D113CF11AE98F40000DFEB2 /* Frameworks */,
+				1D113CF21AE98F40000DFEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D113CF71AE98F40000DFEB2 /* PBXTargetDependency */,
+				1D113CF91AE98F40000DFEB2 /* PBXTargetDependency */,
+			);
+			name = ScreenLockerServicesTests;
+			productName = ScreenLockerServicesTests;
+			productReference = 1D113CF41AE98F40000DFEB2 /* ScreenLockerServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D113C8B1AE98CAC000DFEB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Correlate Systems";
+				TargetAttributes = {
+					1D113C921AE98CAC000DFEB2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 528DCTSM73;
+					};
+					1D113CA81AE98CAC000DFEB2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1D113C921AE98CAC000DFEB2;
+					};
+					1D113CC81AE98DDD000DFEB2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1D113CD81AE98E84000DFEB2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1D113CE91AE98F40000DFEB2 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1D113CF31AE98F40000DFEB2 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1D113C921AE98CAC000DFEB2;
+					};
+				};
+			};
+			buildConfigurationList = 1D113C8E1AE98CAC000DFEB2 /* Build configuration list for PBXProject "ScreenLocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D113C8A1AE98CAC000DFEB2;
+			productRefGroup = 1D113C941AE98CAC000DFEB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D113C921AE98CAC000DFEB2 /* ScreenLocker */,
+				1D113CA81AE98CAC000DFEB2 /* ScreenLockerTests */,
+				1D113CC81AE98DDD000DFEB2 /* ScreenLockerPlugin */,
+				1D113CD81AE98E84000DFEB2 /* ScreenLockerPluginInstaller */,
+				1D113CE91AE98F40000DFEB2 /* ScreenLockerServices */,
+				1D113CF31AE98F40000DFEB2 /* ScreenLockerServicesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D113C911AE98CAC000DFEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D113CA11AE98CAC000DFEB2 /* Images.xcassets in Resources */,
+				1D113CC41AE98D8D000DFEB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CA71AE98CAC000DFEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CC71AE98DDD000DFEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CE81AE98F40000DFEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CF21AE98F40000DFEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089B6CE04555FEDF3203176E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../../../Pods/Target Support Files/Pods-ScreenLocker/Pods-ScreenLocker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D113D0D1AE99204000DFEB2 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LOCATION=\"${BUILT_PRODUCTS_DIR}\"/\"${FRAMEWORKS_FOLDER_PATH}\"\ncodesign --verbose --force --sign \"${CODE_SIGN_IDENTITY}\" \"$LOCATION/Sparkle.framework/Versions/A\"";
+		};
+		FDC7B37B2F8E5357A55B679C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D113C8F1AE98CAC000DFEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D113D101AE99F11000DFEB2 /* Installer.m in Sources */,
+				1D113CC31AE98D8D000DFEB2 /* ViewController.m in Sources */,
+				1D113CC21AE98D8D000DFEB2 /* AppDelegate.m in Sources */,
+				1D113C9C1AE98CAC000DFEB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CA51AE98CAC000DFEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D113CB01AE98CAC000DFEB2 /* ScreenLockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CC51AE98DDD000DFEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CD51AE98E84000DFEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D113CDC1AE98E84000DFEB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CE51AE98F40000DFEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D113CF01AE98F40000DFEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D113CFE1AE98F40000DFEB2 /* ScreenLockerServicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D113CAB1AE98CAC000DFEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D113C921AE98CAC000DFEB2 /* ScreenLocker */;
+			targetProxy = 1D113CAA1AE98CAC000DFEB2 /* PBXContainerItemProxy */;
+		};
+		1D113CD11AE98E0F000DFEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D113CC81AE98DDD000DFEB2 /* ScreenLockerPlugin */;
+			targetProxy = 1D113CD01AE98E0F000DFEB2 /* PBXContainerItemProxy */;
+		};
+		1D113CE41AE98EFD000DFEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D113CD81AE98E84000DFEB2 /* ScreenLockerPluginInstaller */;
+			targetProxy = 1D113CE31AE98EFD000DFEB2 /* PBXContainerItemProxy */;
+		};
+		1D113CF71AE98F40000DFEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D113CE91AE98F40000DFEB2 /* ScreenLockerServices */;
+			targetProxy = 1D113CF61AE98F40000DFEB2 /* PBXContainerItemProxy */;
+		};
+		1D113CF91AE98F40000DFEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D113C921AE98CAC000DFEB2 /* ScreenLocker */;
+			targetProxy = 1D113CF81AE98F40000DFEB2 /* PBXContainerItemProxy */;
+		};
+		1D113D001AE98F40000DFEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D113CE91AE98F40000DFEB2 /* ScreenLockerServices */;
+			targetProxy = 1D113CFF1AE98F40000DFEB2 /* PBXContainerItemProxy */;
+		};
+		1D113D0B1AE98F88000DFEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D113CE91AE98F40000DFEB2 /* ScreenLockerServices */;
+			targetProxy = 1D113D0A1AE98F88000DFEB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D113CB11AE98CAC000DFEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1D113CB21AE98CAC000DFEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1D113CB41AE98CAC000DFEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C422F6811AAA56D7DFD495 /* Pods-ScreenLocker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D113CB51AE98CAC000DFEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C05ACB5AF735BB3DEA4BAE1 /* Pods-ScreenLocker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLocker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D113CB71AE98CAC000DFEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenLocker.app/Contents/MacOS/ScreenLocker";
+			};
+			name = Debug;
+		};
+		1D113CB81AE98CAC000DFEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenLockerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenLocker.app/Contents/MacOS/ScreenLocker";
+			};
+			name = Release;
+		};
+		1D113CCE1AE98DDD000DFEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenLockerPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1D113CCF1AE98DDD000DFEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScreenLockerPlugin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1D113CDE1AE98E84000DFEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D113CDF1AE98E84000DFEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D113D051AE98F40000DFEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenLockerServices/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D113D061AE98F40000DFEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ScreenLockerServices/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D113D081AE98F40000DFEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenLockerServicesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenLocker.app/Contents/MacOS/ScreenLocker";
+			};
+			name = Debug;
+		};
+		1D113D091AE98F40000DFEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ScreenLockerServicesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScreenLocker.app/Contents/MacOS/ScreenLocker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D113C8E1AE98CAC000DFEB2 /* Build configuration list for PBXProject "ScreenLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D113CB11AE98CAC000DFEB2 /* Debug */,
+				1D113CB21AE98CAC000DFEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D113CB31AE98CAC000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D113CB41AE98CAC000DFEB2 /* Debug */,
+				1D113CB51AE98CAC000DFEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D113CB61AE98CAC000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D113CB71AE98CAC000DFEB2 /* Debug */,
+				1D113CB81AE98CAC000DFEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D113CCD1AE98DDD000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D113CCE1AE98DDD000DFEB2 /* Debug */,
+				1D113CCF1AE98DDD000DFEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D113CDD1AE98E84000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerPluginInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D113CDE1AE98E84000DFEB2 /* Debug */,
+				1D113CDF1AE98E84000DFEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D113D041AE98F40000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D113D051AE98F40000DFEB2 /* Debug */,
+				1D113D061AE98F40000DFEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D113D071AE98F40000DFEB2 /* Build configuration list for PBXNativeTarget "ScreenLockerServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D113D081AE98F40000DFEB2 /* Debug */,
+				1D113D091AE98F40000DFEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D113C8B1AE98CAC000DFEB2 /* Project object */;
+}
